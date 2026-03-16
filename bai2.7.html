@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quản lý sinh viên</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+}
+
+.header{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.container{
+display:flex;
+}
+
+.menu{
+width:200px;
+background:#f2f2f2;
+padding:10px;
+}
+
+.menu div{
+padding:8px;
+border-bottom:1px solid #ccc;
+}
+
+.content{
+flex:1;
+padding:15px;
+}
+
+.right{
+width:220px;
+background:#f7f7f7;
+padding:10px;
+}
+
+input{
+margin:4px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:6px;
+text-align:center;
+}
+
+.footer{
+text-align:center;
+padding:10px;
+background:#eee;
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h3>KHOA CÔNG NGHỆ THÔNG TIN - TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT TRÌ</h3>
+<h2>CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN</h2>
+</div>
+
+<div class="container">
+
+<div class="menu">
+<div>Trang chủ</div>
+<div>Quản lý sinh viên</div>
+<div>Quản lý điểm</div>
+<div>Quản lý lớp học</div>
+<div>Quản lý khoa</div>
+<div>Quản lý người dùng</div>
+<div>Chức năng khác</div>
+</div>
+
+<div class="content">
+
+<h3>THÊM SINH VIÊN</h3>
+
+Mã sinh viên <input type="text"><br>
+Họ tên <input type="text"><br>
+Ngày sinh <input type="text"><br>
+Hình <input type="file"><br>
+
+<button>Add</button>
+<button>Update</button>
+<button>Save</button>
+
+<h3>THÔNG TIN SINH VIÊN</h3>
+
+<table>
+
+<tr>
+<th>STT</th>
+<th>MASV</th>
+<th>Họ tên</th>
+<th>Ngày sinh</th>
+<th>Hình</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>TH09</td>
+<td>Nguyễn Lan</td>
+<td>1/1/1986</td>
+<td>h1.jpg</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>TH89</td>
+<td>Thanh Nhàn</td>
+<td>1/8/1985</td>
+<td>h2.jpg</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="right">
+<h4>HTML / CSS</h4>
+<p>Lớp chuyên đề về HTML và CSS.</p>
+<p>Thông báo lịch thi học kì.</p>
+<p>Nhịp sống trẻ.</p>
+</div>
+
+</div>
+
+<div class="footer">
+Khoa Công nghệ Thông tin - Số 9 Tiên Sơn,Phường Thanh Miếu,Tỉnh Phú Thọ <br>
+Email: khcntt@vui.edu.vn
+</div>
+
+</body>
+</html>
